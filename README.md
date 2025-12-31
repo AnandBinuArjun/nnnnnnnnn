@@ -13,7 +13,7 @@ The following sequence diagram illustrates the core user flow of the SmileGuard 
 ```mermaid
 sequenceDiagram
     participant P as Parent/Child
-    participant A as SmileGuard App
+    participant A as NüSmiles
     P->>A: 1. Select User Profile
     A-->>P: Loads Age-Specific UI
     P->>A: 2. Activate AR Scanner
@@ -53,5 +53,6 @@ This application follows a professional, clean design approach with high readabi
 We welcome contributions to enhance the SmileGuard experience! Feel free to fork this repository and submit pull requests with your improvements.
 
 ## 📄 License
+
 
 This project is licensed under the MIT License - see the LICENSE file for details.
